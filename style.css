@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+main {
+    width: fit-content;
+    height: auto;
+    }
+#title {
+    text-align: center;
+    }
+#description {
+    text-align: center;
+    }
+#survey-form {
+    margin: 25px;
+    padding: 25px;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+}

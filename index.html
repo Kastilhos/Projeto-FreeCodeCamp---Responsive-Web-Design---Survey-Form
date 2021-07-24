@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <h1 id="title">Formulário de Cadastramento</h1>
+    <p id="description">Preencha os campos abaixo para prosseguir com a matrícula</p>
+    <form id="survey-form">
+      <div>
+      <label id="name-label">Nome<br>
+      <input id="name" type="text" placeholder="Insira seu nome" required>
+      </label>
+      </div>
+      <div>
+        <label id="email-label">E-mail<br>
+      <input id="email" type="email" placeholder="Insira e-mail para contato" required>
+      </label>
+      </div>
+      <div>
+        <label id="number-label">Idade<br>
+      <input id="number" type="number" placeholder="Sua idade" min="16" max="99">
+      </label>
+      </div>
+      <div>
+        <label>Como conheceu nossos cursos?
+          <br>
+      <select id="dropdown">
+        <option disabled selected>Através de...</option>
+        <option value="amigos">Indicação de amigos</option>
+        <option value="redes-sociais">Redes sociais</option>
+        <option value="televisao">Televisão</option>
+        <option value="radio">Rádio</option>
+        <option value="jornais">Jornais</option>
+        <option value="outdoors">Outdoors</option>
+      </select>
+        </label>
+      </div>
+      <div>
+      <p>Qual seu nível de conhecimento em pogramação?</p>
+      <label for="novato">
+      <input id="novato" type="radio" name="radio">Novato<br>
+         </label>
+        <label for="intermediario">
+      <input id="intermediario" type="radio" name="radio">Intermediário<br>
+           </label>
+          <label for="avançado">
+      <input id="avançado" type="radio" name="radio">Avançado<br>
+      </div>
+      <div>
+        <p>Quais cursos fornecidos em nossa platataforma o interessam?</p>
+        <label for="ruby">
+          <input type="checkbox" name="ruby" id="ruby">Ruby<br>
+        </label>
+        <label for="python">
+          <input type="checkbox" name="python" id="python">Python<br>
+        </label>
+        <label for="java">
+          <input type="checkbox" name="java" id="java">Java
+        </label>
+      </div>
+      <div>
+        <p></p>
+        <input type="text" id="text-area">
+      </div><br>
+      <div>
+        <input type="submit" name="submit" id="submit">
+      </div>
+    </form>
+    </main>
+    </body>
+</html>
