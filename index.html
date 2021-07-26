@@ -9,9 +9,11 @@
 </head>
 <body>
     <main>
+    <div id="title-header">
     <h1 id="title">Formulário de Cadastramento</h1>
     <p id="description">Preencha os campos abaixo para prosseguir com a matrícula</p>
-    <form id="survey-form">
+    </div>
+    <form action="submit" id="survey-form">
       <div>
       <label id="name-label">Nome:
       <input class="form-items" id="name" type="text" placeholder="Insira seu nome" required>
@@ -40,7 +42,7 @@
       </select>
         </label>
       </div>
-      <div>
+      <div class="form-checkradios">
       <p>Qual seu nível de conhecimento em pogramação?</p>
       <label for="novato">
       <input id="novato" type="radio" name="radio">Novato<br>
@@ -51,7 +53,7 @@
           <label for="avançado">
       <input id="avançado" type="radio" name="radio">Avançado<br>
       </div>
-      <div>
+      <div class="form-checkradios">
         <p>Quais cursos fornecidos em nossa platataforma o interessam?</p>
         <label for="ruby">
           <input type="checkbox" name="ruby" id="ruby">Ruby<br>
@@ -64,9 +66,10 @@
         </label>
       </div>
       <div>
-        <p></p>
-        <input class="form-items" type="text" id="text-area">
-      </div><br>
+        <label>Envie sugestões de cursos e
+        <textarea class="form-items" name="" id="text-area" cols="30" rows="10"></textarea>
+      </label>
+      </div>
       <div>
         <input type="submit" name="submit" id="submit">
       </div>
