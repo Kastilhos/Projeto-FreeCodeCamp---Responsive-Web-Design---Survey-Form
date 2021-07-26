@@ -14,7 +14,7 @@ main {
         display: block;
         position: relative;
         margin: -10vh -30vw 0 -30vw;
-        padding: 10vh 0 5px 0;
+        padding: 10vh 0 2vh 0;
         background-color: rgba(137, 43, 226, 0.616);
     }
 #title {
